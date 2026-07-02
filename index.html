@@ -139,12 +139,15 @@
         >
         <span
           class="bg-blue-900/30 border border-blue-500/50 px-4 py-2 rounded-full text-blue-300 font-medium italic"
-          >Docker (Estudando)</span
+          >Docker )</span
         >
         <span
           class="bg-blue-900/30 border border-blue-500/50 px-4 py-2 rounded-full text-blue-300 font-medium italic"
-          >RabbitMQ (Estudando)</span
+          >RabbitMQ</span
         >
+        <span
+          class="bg-blue-900/30 border border-blue-500/50 px-4 py-2 rounded-full text-blue-300 font-medium italic"
+          >Angular(Estudando)</span
       </div>
     </section>
 
@@ -152,6 +155,79 @@
       <div class="max-w-5xl mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center">Meus Projetos</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <div
+            class="bg-gray-800 border border-blue-500/40 rounded-xl overflow-hidden hover:border-blue-500 transition duration-300 flex flex-col shadow-md relative"
+          >
+            <div class="p-6 flex-1 flex flex-col">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-xl font-bold">Transport System</h3>
+                <span class="text-xs font-semibold bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Fullstack</span>
+              </div>
+              <details class="group flex-1">
+                <summary
+                  class="text-blue-500 cursor-pointer text-sm font-semibold mb-2 list-none hover:text-blue-400 transition"
+                >
+                  <span class="group-open:hidden">Ler mais...</span>
+                  <span class="hidden group-open:inline">Recolher</span>
+                </summary>
+                <p class="text-gray-400 mb-4 text-sm leading-relaxed">
+                  Sistema corporativo ponta a ponta para gerenciamento de frotas de transporte, controle de rotas e venda automatizada de passagens. Desenvolvido sobre uma arquitetura desacoplada visando escalabilidade através de processamento assíncrono e segurança rígida baseada em tokens de curta duração e controle de acesso por privilégios (Roles).
+                </p>
+              </details>
+              <div class="flex flex-wrap gap-2 mb-6 mt-2">
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Java / Spring Boot</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Angular (Standalone)</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Docker</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Segurança (Roles)</span>
+              </div>
+              <div class="flex gap-3 mt-auto">
+                <a
+                  href="https://github.com/celsovssilva"
+                  target="_blank"
+                  class="flex-1 text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-lg text-sm font-medium transition"
+                  ><i class="fab fa-github mr-2"></i>Repositório</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-blue-500 transition duration-300 flex flex-col"
+          >
+            <div class="p-6 flex-1 flex flex-col">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-xl font-bold">Estuda Mais</h3>
+                <span class="text-xs font-semibold bg-amber-500/20 text-amber-400 px-2 py-1 rounded italic">Em Desenvolvimento</span>
+              </div>
+              <details class="group flex-1">
+                <summary
+                  class="text-blue-500 cursor-pointer text-sm font-semibold mb-2 list-none hover:text-blue-400 transition"
+                >
+                  <span class="group-open:hidden">Ler mais...</span>
+                  <span class="hidden group-open:inline">Recolher</span>
+                </summary>
+                <p class="text-gray-400 mb-4 text-sm leading-relaxed">
+                  Plataforma voltada para a criação e organização de cronogramas funcionais e gerenciamento de estudos. O projeto segue uma arquitetura moderna dividida entre ecossistemas independentes de Backend e Frontend com suporte à conteinização com Docker e lógicas de autenticação via interceptors para controle seguro de sessão.
+                </p>
+              </details>
+              <div class="flex flex-wrap gap-2 mb-6 mt-2">
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Backend</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Frontend</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Docker Compose</span>
+                <span class="text-xs font-semibold bg-gray-700 text-blue-400 px-2 py-1 rounded">Auth Interceptor</span>
+              </div>
+              <div class="flex gap-3 mt-auto">
+                <a
+                  href="https://github.com/celsovssilva/estuda-mais"
+                  target="_blank"
+                  class="flex-1 text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-lg text-sm font-medium transition"
+                  ><i class="fab fa-github mr-2"></i>Repositório</a
+                >
+              </div>
+            </div>
+          </div>
+
           <div
             class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-blue-500 transition duration-300 flex flex-col"
           >
@@ -170,7 +246,7 @@
                   API desenvolvida baseado na realidade da cidade de Pilar-AL,
                   onde os cidadãos sofrem para conseguir agendar seus exames,
                   consultas médicas etc. O projeto foi acadêmico, avaliado no
-                  final de 2024.2, aplicando: Autenticação, segurança,
+                  final de 2024.2, applying: Autenticação, segurança,
                   agendamento de consulta, sala, cadastro de médicos, pacientes
                   e um administrador geral.
                 </p>
